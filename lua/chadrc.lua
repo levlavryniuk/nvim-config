@@ -2,7 +2,7 @@
 local M = {}
 
 M.base46 = {
-  theme = "catppuccin",
+  theme = "kanagawa",
   transparency = true,
   -- hl_override = {
   -- 	Comment = { italic = true },
@@ -15,6 +15,7 @@ M.ui = {
   statusline = {
     theme = "minimal",
     separator_style = "round",
+    format_colors = { tailwind = true }
   },
 }
 
