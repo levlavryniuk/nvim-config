@@ -32,11 +32,6 @@ end, { silent = true, buffer = bufnr })
 
 map("n", "gh", "<cmd>lua vim.diagnostic.open_float()<CR>", { noremap = true, silent = true })
 
--- Rust LSP specific
--- map("n", "<leader>ca", function()
---   vim.cmd.RustLsp "codeAction"
--- end, { silent = true, buffer = bufnr })
-
 -- Buffer navigation
 map("n", "<C-i>", ":bprev<CR>", { noremap = true, silent = true })
 map("n", "<C-o>", ":bnext<CR>", { noremap = true, silent = true })
@@ -47,7 +42,6 @@ map("n", "<leader>u", "<cmd>Telescope undo<cr>")
 -- Save with Ctrl+S
 map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
 
--- Rust binds
 local opts = { noremap = true, silent = true, buffer = bufnr }
 
 map('n', '<leader>ca', vim.lsp.buf.code_action, opts)
