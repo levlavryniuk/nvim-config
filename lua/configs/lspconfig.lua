@@ -3,7 +3,7 @@ require("nvchad.configs.lspconfig").defaults()
 local lspconfig = require "lspconfig"
 local nvlsp = require "nvchad.configs.lspconfig"
 
-local servers = { "ts_ls", "html", "cssls", "clangd", "svelte", "astro", "sqlls", 'emmet_ls' }
+local servers = { "ts_ls", "html", "cssls", "svelte", "astro" }
 
 for _, lsp in ipairs(servers) do
   lspconfig[lsp].setup {
