@@ -2,7 +2,7 @@
 local M = {}
 
 M.base46 = {
-  theme = "nightlamp",
+  theme = "everblush",
   transparency = true,
   -- hl_override = {
   -- 	Comment = { italic = true },
@@ -12,6 +12,9 @@ M.base46 = {
 
 M.ui = {
   telescope = { style = "bordered" },
+  tabufline = {
+    enabled = true
+  },
   statusline = {
     theme = "minimal",
     separator_style = "round",
