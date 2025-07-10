@@ -1,2 +1,18 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
+require("fzf-lua").setup({
+  defaults = {
+    file_ignore_patterns = {
+      "node_modules",
+      "target",
+      ".git",
+      "__pycache__",
+      ".mypy_cache",
+      ".pytest_cache",
+      "build",
+      -- "dist",
+      "*.egg-info",
+      ".jj",
+    },
+  },
+})

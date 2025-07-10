@@ -5,4 +5,13 @@ return {
     "nvim-lualine/lualine.nvim",
     enabled = false,
   },
+  { "lukas-reineke/indent-blankline.nvim", enabled = false }, -- Removes indent guides
+  {
+    "snacks.nvim",
+
+    opts = {
+
+      scroll = { enabled = false },
+    },
+  },
 }
