@@ -1,6 +1,6 @@
 return {
   "saghen/blink.cmp",
-  enabled = false,
+  enabled = true,
   version = not vim.g.lazyvim_blink_main and "*",
   build = vim.g.lazyvim_blink_main and "cargo build --release",
   opts_extend = {
