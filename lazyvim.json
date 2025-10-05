@@ -1,8 +1,9 @@
 {
   "extras": [
+    "lazyvim.plugins.extras.ai.supermaven",
     "lazyvim.plugins.extras.coding.blink",
     "lazyvim.plugins.extras.editor.harpoon2",
-    "lazyvim.plugins.extras.editor.inc-rename",
+    "lazyvim.plugins.extras.editor.neo-tree",
     "lazyvim.plugins.extras.editor.telescope",
     "lazyvim.plugins.extras.formatting.biome",
     "lazyvim.plugins.extras.formatting.prettier",
