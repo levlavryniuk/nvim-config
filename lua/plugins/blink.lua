@@ -45,12 +45,17 @@ return {
         },
       },
       menu = {
+        border = "rounded",
         draw = {
           treesitter = { "lsp" },
+          columns = { { "label", gap = 1 }, { "kind" } },
         },
       },
       documentation = {
         auto_show = true,
+        window = {
+          border = "solid",
+        },
         auto_show_delay_ms = 200,
       },
       ghost_text = {
@@ -65,7 +70,7 @@ return {
       -- adding any nvim-cmp sources here will enable them
       -- with blink.compat
       compat = {},
-      default = { "lsp", "path", "snippets", "buffer" },
+      default = { "lsp", "path", "buffer" },
     },
 
     cmdline = {

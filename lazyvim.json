@@ -1,5 +1,6 @@
 {
   "extras": [
+<<<<<<< HEAD
     "lazyvim.plugins.extras.ai.supermaven",
     "lazyvim.plugins.extras.coding.blink",
     "lazyvim.plugins.extras.editor.harpoon2",
@@ -16,8 +17,10 @@
     "lazyvim.plugins.extras.linting.eslint",
     "lazyvim.plugins.extras.util.dot",
     "lazyvim.plugins.extras.util.mini-hipatterns"
+=======
+
+>>>>>>> 687d2705481b25236e4e493ece57deb11cf5c9ce
   ],
-  "install_version": 8,
   "news": {
     "NEWS.md": "10960"
   },
