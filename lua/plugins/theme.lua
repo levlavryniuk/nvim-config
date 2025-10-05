@@ -15,6 +15,7 @@ return {
   {
     "sainnhe/gruvbox-material",
   },
+  { "aliqyan-21/darkvoid.nvim" },
   -- TokyoNight
   { "folke/tokyonight.nvim", priority = 1000 },
 
@@ -118,6 +119,7 @@ return {
           "oldworld",
           "fluoromachine",
           "gruvbox-material",
+          "darkvoid",
         },
         livePreview = true,
       })
