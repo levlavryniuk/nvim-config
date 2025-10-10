@@ -1,6 +1,14 @@
 return {
-  -- Catppuccin
-  { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+  {
+    "catppuccin/nvim",
+    config = function()
+      require("catppuccin").setup({
+        transparent_background = true,
+      })
+    end,
+    name = "catppuccin",
+    priority = 1000,
+  },
   {
     "maxmx03/fluoromachine.nvim",
     lazy = false,
@@ -15,21 +23,14 @@ return {
   {
     "sainnhe/gruvbox-material",
   },
-  { "aliqyan-21/darkvoid.nvim" },
   -- TokyoNight
-  { "folke/tokyonight.nvim", priority = 1000 },
+  { "folke/tokyonight.nvim", transparent = true, priority = 1000 },
 
   -- Kanagawa
   { "rebelot/kanagawa.nvim", priority = 1000 },
 
   -- Rose Pine
   { "rose-pine/neovim", name = "rose-pine", priority = 1000 },
-
-  -- Nightfox
-  { "EdenEast/nightfox.nvim", priority = 1000 },
-
-  -- Onedark
-  { "navarasu/onedark.nvim", priority = 1000 },
 
   -- Gruvbox
   { "ellisonleao/gruvbox.nvim", priority = 1000 },
@@ -66,60 +67,23 @@ return {
           "catppuccin-macchiato",
           "catppuccin-mocha",
 
-          -- TokyoNight variants
           "tokyonight-day",
           "tokyonight-night",
           "tokyonight-storm",
           "tokyonight-moon",
 
-          -- Kanagawa
           "kanagawa",
 
-          -- Rose Pine variants
           "rose-pine",
           "rose-pine-moon",
           "rose-pine-dawn",
 
-          -- Nightfox variants
-          "nightfox",
-          "nordfox",
-          "dawnfox",
-          "terafox",
-          "carbonfox",
-
-          -- OneDark
-          "onedark",
-
-          -- Gruvbox
           "gruvbox",
 
-          -- Everforest
-          "everforest",
-
-          -- Dracula
-          "dracula",
-
-          -- GitHub themes
-          "github_dark",
-          "github_light",
-
-          -- Solarized
-          "solarized",
-
-          -- Ayu variants
-          "ayu-dark",
-          "ayu-light",
-          "ayu-mirage",
-
-          -- Sonokai
-          "sonokai",
-
-          -- Melange
           "melange",
           "oldworld",
           "fluoromachine",
           "gruvbox-material",
-          "darkvoid",
         },
         livePreview = true,
       })

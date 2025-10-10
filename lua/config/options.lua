@@ -8,6 +8,4 @@ vim.g.minipairs_disable = true
 
 vim.opt.guicursor = "n-v-c-i:block"
 
-vim.o.background = "light"
-
 vim.g.lazyvim_picker = "snacks"
